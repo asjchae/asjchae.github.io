@@ -1,6 +1,18 @@
+@import url(http://fonts.googleapis.com/css?family=Quicksand);
+
 * {
 	margin: 0;
 	padding: 0;
+}
+
+/* LINKS */
+a, a:link {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover, a:active {
+	text-decoration: underline;
 }
 
 /* TYPOGRAPHY */
@@ -58,19 +70,32 @@
 
 }
 
-p {
+
+p, ul {
 	font-family: 'liberation sans regular', sans-serif;
 	font-size: 12pt;
 }
 
+p {
+	margin-bottom: 1em;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+
+p+ul {
+	margin-top: -1em;
+}
+
 h3 {
-	font-family: 'liberation sans regular', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 14pt;
 	font-weight: normal;
 }
 
 h2 {
-	font-family: 'liberation sans regular', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 16pt;
 	font-weight: normal;
 }

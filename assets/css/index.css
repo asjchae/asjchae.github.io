@@ -1,16 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Quicksand);
-
 h2, h3, p {
 	font-family: 'Quicksand', sans-serif;
-}
-
-a, a:link {
-	text-decoration: none;
-	color: inherit;
-}
-
-a:hover, a:active {
-	text-decoration: underline;
 }
 
 @media (max-width: 600px) {

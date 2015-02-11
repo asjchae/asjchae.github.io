@@ -1,0 +1,48 @@
+.desc ul {
+	margin-left: 1em;
+}
+
+.decorated {
+	list-style-image: url('../img/image.png');
+}
+
+@media (max-width: 600px) {
+	body {
+		padding: 2em;
+	}
+
+}
+
+@media (min-width: 601px) {
+	#hero {
+		max-width: 980px;
+		margin: auto;
+	}
+
+	.summary {
+		max-width: 980px;
+		margin: 2em auto;
+	}
+
+	.summary p {
+		font-family: 'Quicksand', sans-serif;
+	}
+	
+	.desc {
+		max-width: 980px;
+		margin: auto;
+	}
+
+	.desc > div {
+		margin: 2em auto 2em 12em;
+	}
+
+}
+
+@media (min-width: 980px) {
+
+}
+
+@media (min-width: 1300px) {
+
+}
