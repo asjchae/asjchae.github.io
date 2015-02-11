@@ -5,8 +5,8 @@
 
 /* TYPOGRAPHY */
 @font-face {
-    font-family: 'ostrich_sansbold';
-    src: url('ostrichsans-bold-webfont.eot');
+    font-family: 'ostrich sans bold';
+    src: url('../ostrichsans-bold-webfont.eot');
     src: url('../webfonts/ostrichsans-bold-webfont.eot?#iefix') format('embedded-opentype'),
          url('../webfonts/ostrichsans-bold-webfont.ttf') format('truetype'),
          url('../webfonts/ostrichsans-bold-webfont.svg#ostrich_sansbold') format('svg');
@@ -16,7 +16,7 @@
 }
 
 @font-face {
-    font-family: 'liberation_sansregular';
+    font-family: 'liberation sans regular';
     src: url('../webfonts/LiberationSans-Regular-webfont.eot');
     src: url('../webfonts/LiberationSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
          url('../webfonts/LiberationSans-Regular-webfont.ttf') format('truetype'),
@@ -26,7 +26,7 @@
 }
 
 @font-face {
-    font-family: 'liberation_sansitalic';
+    font-family: 'liberation sans italic';
     src: url('../webfonts/LiberationSans-Italic-webfont.eot');
     src: url('../webfonts/LiberationSans-Italic-webfont.eot?#iefix') format('embedded-opentype'),
          url('../webfonts/LiberationSans-Italic-webfont.ttf') format('truetype'),
@@ -37,7 +37,7 @@
 }
 
 @font-face {
-    font-family: 'liberation_sansbold';
+    font-family: 'liberation sans bold';
     src: url('../webfonts/LiberationSans-Bold-webfont.eot');
     src: url('../webfonts/LiberationSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
          url('../webfonts/LiberationSans-Bold-webfont.ttf') format('truetype'),
@@ -48,7 +48,7 @@
 }
 
 @font-face {
-    font-family: 'liberation_sansbold_italic';
+    font-family: 'liberation sans bold italic';
     src: url('../webfonts/LiberationSans-BoldItalic-webfont.eot');
     src: url('../webfonts/LiberationSans-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
          url('../webfonts/LiberationSans-BoldItalic-webfont.ttf') format('truetype'),
@@ -59,17 +59,38 @@
 }
 
 p {
-	font-family: 'liberation_sansregular', sans-serif;
+	font-family: 'liberation sans regular', sans-serif;
 	font-size: 12pt;
 }
 
+h3 {
+	font-family: 'liberation sans regular', sans-serif;
+	font-size: 14pt;
+	font-weight: normal;
+}
+
 h2 {
-	font-family: 'liberation_sansregular', sans-serif;
+	font-family: 'liberation sans regular', sans-serif;
 	font-size: 16pt;
 	font-weight: normal;
 }
 
 h1 {
-	font-family: 'ostrich_sansbold', sans-serif;
+	font-family: 'ostrich sans bold', sans-serif;
 	font-size: 40pt;
+}
+
+/* HEADER */
+@media (min-width: 601px) {
+	#header {
+		max-width: 980px;
+		margin: 2em auto;
+		position: relative;
+	}
+
+	#header .nav {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
 }
