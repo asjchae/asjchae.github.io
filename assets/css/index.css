@@ -52,16 +52,11 @@ h2, h3, p {
 		position: relative;
 	}
 
-	#header .nav {
-		position: absolute;
-		top: 0;
-		right: 0;
-	}
+
 
 	.projects {
 		max-width: 980px;
 		margin: 2em auto;
-		padding-left: 8em;
 		overflow: hidden;
 
 		text-transform: uppercase;

@@ -112,7 +112,9 @@ h1 {
 		margin: 2em auto;
 		position: relative;
 	}
+}
 
+@media (min-width: 980px) {
 	#header .nav {
 		position: absolute;
 		top: 0;
