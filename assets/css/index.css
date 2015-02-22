@@ -67,29 +67,78 @@ a.current {
 	}
 
 	.projects .project {
-		height: 170px;
-		width: 170px;
+		height: 250px;
+		width: 250px;
 		display: inline-block;
-		margin: 1em;
+		margin: 2em;
 		float: left;
 
-		/*background-image: url("../images/cuethink-hero-image.jpg");*/
 		background: rgb(25,25,25);
-		border-radius: 85px;
+		border-radius: 125px;
 
 		text-align: center;
 		position: relative;
-	}	
+	}
+
+	#cuethink {
+		background-image:
+			    linear-gradient(
+    			  rgba(0, 0, 0, 0.4),
+      			  rgba(0, 0, 0, 0.4)
+      			 ),
+			    url("../images/cuethink-index-image.jpg");
+		background-repeat: no-repeat;
+	}
+
+	#gga {
+		background-image:
+			    linear-gradient(
+    			  rgba(0, 0, 0, 0.4),
+      			  rgba(0, 0, 0, 0.4)
+      			 ),
+				url("../images/gga-index-image.jpg");
+		background-repeat: no-repeat;
+	}
+
+	#streetperformer {
+		background-image:
+			    linear-gradient(
+    			  rgba(0, 0, 0, 0.4),
+      			  rgba(0, 0, 0, 0.4)
+      			 ),
+				url("../images/street-performer-index-image.jpg");
+		background-repeat: no-repeat;		
+	}
+
+	#mydish {
+		background-image:
+			    linear-gradient(
+    			  rgba(0, 0, 0, 0.4),
+      			  rgba(0, 0, 0, 0.4)
+      			 ),
+				url("../images/mydish-index-image.jpg");
+		background-repeat: no-repeat;		
+	}
+
+	#sparked {
+		background-image:
+			    linear-gradient(
+    			  rgba(0, 0, 0, 0.4),
+      			  rgba(0, 0, 0, 0.4)
+      			 ),
+			    url("../images/sparked-index-image.jpg");
+		background-repeat: no-repeat;		
+	}
 
 
 	.projects .project:hover p {
 		color: white;
-		text-decoration: none;
+		text-decoration: bold;
 	}
 
 	.projects .project p {
 		color: rgb(225,225,225);
-		font-size: 11pt;
+		font-size: 14pt;
 
 		position: relative;
 	  	top: 50%;
