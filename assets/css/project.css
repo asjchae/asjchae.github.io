@@ -16,6 +16,16 @@ a.current {
 	background: url('../images/icons/checkbox.png') no-repeat .1em .1em/1em 1em;
 }
 
+.projectImage {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.credit {
+	font-size: xx-small
+}
+
 @media (max-width: 600px) {
 	body {
 		padding: 2em;

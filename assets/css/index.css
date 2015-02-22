@@ -2,6 +2,10 @@ h2, h3, p {
 	font-family: 'Quicksand', sans-serif;
 }
 
+a.current {
+	text-decoration: underline;
+}
+
 @media (max-width: 600px) {
 	body {
 		padding: 2em;
@@ -69,12 +73,14 @@ h2, h3, p {
 		margin: 1em;
 		float: left;
 
+		/*background-image: url("../images/cuethink-hero-image.jpg");*/
 		background: rgb(25,25,25);
 		border-radius: 85px;
 
 		text-align: center;
 		position: relative;
-	}
+	}	
+
 
 	.projects .project:hover p {
 		color: white;
